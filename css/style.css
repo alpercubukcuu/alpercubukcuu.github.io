@@ -940,6 +940,78 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Certificate
+--------------------------------------------------------------*/
+.aws-color{
+    border-left: 4px solid #ff9900;
+}
+
+.ufc-color{
+    border-left: 4px solid #002354;
+}
+
+.param-color{
+    border-left: 4px solid #4d008c;
+}
+
+.certificate-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #f7f7f7;
+    min-height: 510px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.certificate-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.certificate-logo {
+    width: 100px; /* Logo genişliğini ayarlayın */
+    height: auto;
+}
+
+.certificate-title {
+    margin: 0;
+    padding: 0;
+    color: #252f3e;
+}
+
+.certificate-content {
+    background-color: #ffffff;
+    padding: 16px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+
+.certificate-content h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.certificate-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.certificate-content ul li {
+    padding-left: 1.2em;
+    text-indent: -1.2em;
+}
+
+.certificate-content ul li:before {
+    content: "•";
+    padding-right: 8px;
+    color: #005eb8; /* Sertifika maddelerinin renkleri */
+}
+
+/*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
